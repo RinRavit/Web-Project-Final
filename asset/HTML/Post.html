@@ -1,0 +1,121 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/Post.css" />
+    <title>Post content</title>
+    <script
+      src="https://kit.fontawesome.com/d6d651f030.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="Container container-width">
+      <!-- Navigation bar -->
+      <header class="top-page container-width">
+        <nav class="navigation">
+          <a href="../HTML/Profile_owner.html"
+            ><div class="icon-x"><i class="fa-solid fa-chevron-left"></i></div
+          ></a>
+          <div><h1>Create Post</h1></div>
+          <a href="../HTML/Profile_owner.html"
+            ><div class="btn-post">
+              <button><h3>Post</h3></button>
+            </div></a
+          >
+        </nav>
+      </header>
+
+      <section class="Profile_create_post">
+        <div>
+          <img
+            class="profile"
+            src="../Image/Profile_owner/P_F - Copy.webp"
+            alt=""
+          />
+        </div>
+        <div style="margin-left: 10px">
+          <div><h2>Rin Ravit</h2></div>
+          <div class="option-post">
+            <div><h3>Friend</h3></div>
+            <div class="icon-toggler" style="margin-left: 5px">
+              <i class="fa-solid fa-caret-down"></i>
+            </div>
+          </div>
+          <div class="menu-post">
+            <div class="list-menu" style="margin-left: 5px">
+              <div><h3>Public</h3></div>
+              <div><h3>Friend</h3></div>
+              <div><h3>Only me</h3></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="post-content">
+        <div><h4 style="margin-left: 15px">Good mornning Broooo</h4></div>
+
+        <div style="display: flex; justify-content: center; margin-top: 20px">
+          <div>
+            <img
+              class="photo-post"
+              src="../Image/Post_page/photo_2023-07-26_15-33-15.webp"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="other-function">
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            width: 200px;
+            border-radius: 10px;
+            height: 30px;
+            margin-left: 15px;
+            background-color: rgb(149, 149, 149);
+          "
+        >
+          <h3 style="margin-left: 5px">Add to your post</h3>
+        </div>
+        <div style="display: flex; gap: 10px; margin-right: 10px">
+          <div>
+            <div class="icon-post">
+              <i
+                style="color: rgb(36, 193, 49)"
+                class="fa-solid fa-file-image"
+              ></i>
+            </div>
+          </div>
+          <div>
+            <div class="icon-post">
+              <i
+                style="color: rgb(58, 58, 255)"
+                class="fa-solid fa-user-tag"
+              ></i>
+            </div>
+          </div>
+          <div>
+            <div class="icon-post">
+              <i style="color: yellow" class="fa-solid fa-face-laugh"></i>
+            </div>
+          </div>
+          <div>
+            <div class="icon-post">
+              <i style="color: orangered" class="fa-solid fa-location-dot"></i>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script>
+      const menuToggler = document.querySelector(".icon-toggler");
+      const navLists = document.querySelector(".menu-post");
+      menuToggler.addEventListener("click", () => {
+        navLists.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+html {
+  /* 62.5%​​ of 16px = 10px */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e9eff0;
+}
+.Container {
+  width: 390px;
+  height: 844px;
+  border: 3px solid black;
+}
+
+h1 {
+  font-size: 20px;
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container-width {
+  max-width: 390px;
+  margin: 0 auto;
+}
+/* Navigation bar */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: #c92fff;
+  align-items: center;
+  height: 56px;
+}
+i {
+  font-size: 30px;
+  font: bold;
+}
+.icon-r-g {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: rgb(41, 252, 41);
+  position: relative;
+  left: 55px;
+  top: 25px;
+}
+.nav-top {
+  display: flex;
+  margin-left: 50px;
+}
+
+.navigation > i {
+  position: absolute;
+  left: 460px;
+}
+
+.user-pf {
+  display: flex;
+}
+.img-top {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
+.icon-top {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-left: 50px;
+}
+.icon-top > i {
+  font-size: 25px;
+}
+.txt-top {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+/* End of Navigation bar */
+
+/* Chat detail */
+.box-chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  height: 32px;
+  border-radius: 15px;
+  background: #d9d9d9;
+  margin-top: 5px;
+  margin-left: 45px;
+}
+.img-user-chat {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  position: relative;
+  left: -45px;
+}
+.box-chat-user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 32px;
+  border-radius: 15px;
+  background: #d9d9d9;
+  margin-left: 230px;
+}
+h5 {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  align-items: center;
+}
+
+.img-chat-detail {
+  max-width: 216px;
+  max-height: 135px;
+  border-radius: 10px;
+}
+
+/* Footer */
+.buttom-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  height: 40px;
+  background-color: #e49393;
+}
+p {
+  text-indent: 10px;
+}
+.icon-buttom {
+  display: flex;
+  gap: 20px;
+  margin-left: 10px;
+}
+.btn-message {
+  width: 180px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #cbcbcb;
+}
+.btn-message > i {
+  font-size: 18px;
+  margin-right: 5px;
+  color: rgb(25, 182, 193);
+}
